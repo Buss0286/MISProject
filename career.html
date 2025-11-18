@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Interests - Mason Buss</title>
+    <style>
+        :root {
+            --primary: #2a6bf2;
+            --secondary: #ff6b6b;
+            --background: #f8f9fd;
+            --text: #2c3e50;
+            --accent: #4CAF50;
+            --nav-bg: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            padding: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        h1, h2 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .company-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .company-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .company-logo {
+            width: 200px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            background: var(--background);
+            padding: 1rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+        }
+
+        /* Navigation Styles */
+        .nav-container {
+            background: var(--nav-bg);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            margin-bottom: 2rem;
+        }
+
+        .nav-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--text);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            background: var(--background);
+            color: var(--primary);
+        }
+
+        .nav-link.active {
+            background: var(--primary);
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .nav-content {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="nav-content">
+            <a href="index.html" class="nav-logo">Mason Buss</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="hobbies.html" class="nav-link">Hobbies</a>
+                <a href="discover.html" class="nav-link">Discover UMD</a>
+                <a href="resume.html" class="nav-link">Resume</a>
+                <a href="career.html" class="nav-link active">Career</a>
+                <a href="game.html" class="nav-link">Game</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="content">
+            <h1>Investment Banking Career Opportunities</h1>
+            <h2>Equity Research Positions at Top Tier Banks</h2>
+            <p class="subtitle">Target Companies: JPMorgan Chase & Goldman Sachs</p>
+
+            <div class="equity-research-description">
+                <h3>What is Equity Research?</h3>
+                <p>Equity research analysts conduct in-depth financial analysis of companies and industries to provide investment recommendations to institutional clients. This role involves:</p>
+                <ul>
+                    <li>Financial modeling and valuation analysis (DCF, comparables, precedent transactions)</li>
+                    <li>Industry research and competitive analysis</li>
+                    <li>Company site visits and management meetings</li>
+                    <li>Earnings analysis and quarterly report reviews</li>
+                    <li>Writing research reports and price targets</li>
+                    <li>Interacting with institutional investors and sales teams</li>
+                </ul>
+            </div>
+            
+            <div class="company-grid">
+                <div class="company-card">
+                    <h2>JPMorgan Chase & Co.</h2>
+                    <div class="company-overview">
+                        <h3>Company Overview</h3>
+                        <p>JPMorgan Chase is the largest bank in the United States and one of the world's premier financial institutions. With over 225 years of history, the firm serves millions of customers, clients, and communities in over 100 global markets. Their Corporate & Investment Banking division is a leader in providing comprehensive financial solutions to corporations, governments, and institutions worldwide.</p>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p><strong>JPMorgan Chase & Co.</strong><br>
+                        270 Park Avenue<br>
+                        New York, NY 10017<br>
+                        United States</p>
+                        <p><strong>Main Phone:</strong> (212) 270-6000<br>
+                        <strong>Careers Website:</strong> careers.jpmorgan.com<br>
+                        <strong>Corporate Website:</strong> jpmorganchase.com</p>
+                    </div>
+                    
+                    <h3>Why This Company?</h3>
+                    <p>JPMorgan Chase offers excellent opportunities for equity research analysts through their Corporate & Investment Banking division. The firm values candidates with strong analytical skills, financial modeling expertise, and research experience. Key advantages include:</p>
+                    <ul>
+                        <li>Student and graduate programs available</li>
+                        <li>Research Analyst Development Programs</li>
+                        <li>Summer internship opportunities</li>
+                        <li>Emphasis on diversity and inclusion</li>
+                        <li>Strong training and mentorship programs</li>
+                    </ul>
+                    
+                    <h3>Position of Interest</h3>
+                    <p>Equity Research Analyst - Corporate & Investment Banking division, providing institutional investors with insights, analysis, and recommendations across all major sectors and industries.</p>
+                    
+                    <h3>My Qualifications</h3>
+                    <ul>
+                        <li><strong>Research Experience:</strong> Student Equity Research Associate at Bulldog Investment Research Initiative</li>
+                        <li><strong>Financial Modeling:</strong> Expertise in three-statement Excel models, DCF analysis, and valuation techniques</li>
+                        <li><strong>Data Platform Proficiency:</strong> Bloomberg Certification and FactSet proficiency</li>
+                        <li><strong>Academic Excellence:</strong> 3.9 GPA at University of Minnesota Duluth with relevant finance coursework</li>
+                        <li><strong>Current Research Work:</strong> Active involvement in earnings analysis, industry research, and valuation modeling</li>
+                    </ul>
+                </div>
+
+                <div class="company-card">
+                    <h2>Goldman Sachs Group, Inc.</h2>
+                    <div class="company-overview">
+                        <h3>Company Overview</h3>
+                        <p>Goldman Sachs is one of the world's leading investment banks and financial institutions, known for its excellence in advisory services, capital markets, and asset management. Founded in 1869, the firm has built a reputation for attracting top talent and providing world-class financial services to corporations, governments, and individuals worldwide.</p>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p><strong>Goldman Sachs Group, Inc.</strong><br>
+                        200 West Street<br>
+                        New York, NY 10282<br>
+                        United States</p>
+                        <p><strong>Main Phone:</strong> (212) 902-1000<br>
+                        <strong>Careers Website:</strong> goldmansachs.com/careers<br>
+                        <strong>Corporate Website:</strong> goldmansachs.com</p>
+                    </div>
+                    
+                    <h3>Why This Company?</h3>
+                    <p>Goldman Sachs is renowned for its rigorous hiring process and high standards. Key opportunities include:</p>
+                    <ul>
+                        <li>2026 Summer Internship Program (applications now open)</li>
+                        <li>Analyst and Associate programs in Global Investment Research</li>
+                        <li>Emphasis on excellence and performance</li>
+                        <li>Strong apprenticeship model and mentorship</li>
+                        <li>Opportunities across Asset Management, FICC, and Equities divisions</li>
+                    </ul>
+                    
+                    <h3>Position of Interest</h3>
+                    <p>Equity Research Analyst - Global Investment Research division, providing institutional investors with comprehensive research, analysis, and insights across all major asset classes and geographic regions.</p>
+                    
+                    <h3>My Qualifications</h3>
+                    <ul>
+                        <li><strong>Analytical Excellence:</strong> 3.9 GPA demonstrates academic and analytical rigor</li>
+                        <li><strong>Technical Skills:</strong> Bloomberg and FactSet platform proficiency aligns with technology focus</li>
+                        <li><strong>Research Focus:</strong> Current work in equity research and financial modeling directly applicable to Global Investment Research</li>
+                        <li><strong>Professional Development:</strong> Wall Street Prep training shows commitment to development</li>
+                        <li><strong>Growth Mindset:</strong> Active learning through Investment Club and continuous education</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="qualifications-summary" style="margin-top: 3rem;">
+                <h2>Your Competitive Advantages</h2>
+                
+                <h3>Academic Excellence</h3>
+                <ul>
+                    <li>3.9 GPA in Finance major at University of Minnesota Duluth</li>
+                    <li>Relevant coursework: Financial Accounting, Economics, Statistics</li>
+                    <li>Deans List and Distinguished Scholar recognition</li>
+                </ul>
+
+                <h3>Practical Experience</h3>
+                <ul>
+                    <li>Student Equity Research Associate at Bulldog Investment Research Initiative</li>
+                    <li>Selected as 1 of 12 analysts through competitive interview process</li>
+                    <li>Hands-on experience with earnings analysis, financial modeling, and industry research</li>
+                </ul>
+
+                <h3>Technical Proficiency</h3>
+                <ul>
+                    <li>Bloomberg Certification Program completion</li>
+                    <li>FactSet platform proficiency</li>
+                    <li>Advanced Excel modeling skills (three-statement models, DCF, comparables)</li>
+                    <li>Microsoft Suite expertise</li>
+                </ul>
+
+                <h3>Professional Development</h3>
+                <ul>
+                    <li>Wall Street Prep Financial & Valuation Modeling certification (expected Jan 2026)</li>
+                    <li>Active member of Investment Club</li>
+                    <li>Continuous learning and professional networking</li>
+                </ul>
+
+                <h3>Key Skills Alignment</h3>
+                <p>Your background aligns perfectly with equity research requirements:</p>
+                <ul>
+                    <li><strong>Financial Analysis:</strong> Experience with 10-K/10-Q analysis and earnings calls</li>
+                    <li><strong>Valuation Modeling:</strong> DCF, EV/EBITDA, P/E, and PEG ratio analysis</li>
+                    <li><strong>Industry Research:</strong> Comprehensive sector analysis and competitive assessment</li>
+                    <li><strong>Research Writing:</strong> Authoring research reports and providing actionable insights</li>
+                    <li><strong>Technology Tools:</strong> Proficiency in industry-standard research platforms</li>
+                </ul>
+            </div>
+
+            <div class="next-steps" style="margin-top: 2rem;">
+                <h2>Recommended Next Steps</h2>
+                
+                <h3>Immediate Actions</h3>
+                <ol>
+                    <li>Apply to Goldman Sachs 2026 Summer Internship Program (applications open)</li>
+                    <li>Monitor JPMorgan Chase career portal for equity research opportunities</li>
+                    <li>Network with alumni working in equity research at both firms</li>
+                    <li>Continue developing financial modeling skills through Wall Street Prep</li>
+                </ol>
+
+                <h3>Long-term Strategy</h3>
+                <ul>
+                    <li>Build relationships through finance industry events and networking</li>
+                    <li>Consider additional certifications (CFA charter progress)</li>
+                    <li>Gain exposure to different sectors through your current research role</li>
+                    <li>Develop strong communication and presentation skills</li>
+                    <li>Stay current with market trends and financial news</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
